@@ -1,1 +1,9 @@
-# Cardiovascular-Risk-Prediction--classification-
+## Cardiovascular-Risk-Prediction--classification-
+
+Coronary heart disease is a type of heart disease where the arteries of the heart cannot deliver enough oxygen-rich blood to the heart. Many people have no symptoms, they do not know they have coronary heart disease until they have chest pain, blood flow to the heart is blocked, causing a heart attack, or the heart suddenly stops working, also known as cardiac arrest. 
+Look at the given dataset and find the distribution of each feature. Look for null values and outliers and replace or remove them if it is meaningful for our study. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patient's information. It includes over 3390 records and 17 attributes. Each attribute is a potential risk factor. There are both demographic and behavioral as well as medical risk factors. Use appropriate metrics to compare the performance of machine learning algorithms.
+We have done null values replacement. We observed that we have an imbalanced data set. So, we up-sampled our minority class data to make our dataset a balanced one. Then we trained machine learning models for both the original dataset and the modified dataset. We used the F1 score as a metric for comparing the performance of machine learning models.
+Females are more than the number of males in our dataset but the number of males prone to heart disease is more compared to females.
+Without using SMOTE all the models were not performing well as the dataset was imbalanced.
+So, it is necessary to handle the imbalanced dataset.
+After using multiple machine learning models, we found out that the SVM classifier is the best model for the prediction of CHD for this dataset compared to other classifiers.
